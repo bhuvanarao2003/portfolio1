@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .brand h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 20px 0;
+    display: block;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    border-bottom: 2px solid #007bff;
+}
+
+main {
+    padding-top: 80px; /* Height of the header */
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; /* Establish relative positioning */
+}
+
+section h2 {
+    color: #007bff; /* Blue color */
+    text-align: left; /* Center align text */
+    margin-bottom: 40px; /* Bottom margin for spacing */
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.intro .text {
+    max-width: 50%;
+}
+
+.intro .text h2 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.intro .text h3 {
+    margin: 10px 0 20px;
+    font-size: 24px;
+    color: #666;
+}
+
+.intro .text .highlight {
+    color: #007bff;
+}
+
+.intro .text .btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro .photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+}
+
+.skill i {
+    font-size: 48px;
+    color: #007bff;
+}
+
+.skill p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.contact-info {
+    font-size: 18px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px; /* Adjust the maximum width */
+    margin: 50px; /* Center align the section */
+    text-align: justify; /* Align text to the left */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    border: 2px solid #007bff; /* Blue left border */
+     /* Padding for content inside */
+}
+
+.about-content {
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: left; /* Align content to the left */
+    max-width: 600px; /* Adjust the maximum width */
+    ; /* Center align content */
+}
+
+
+
+#projects {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.project {
+    width: calc(33.33% - 10px); /* Adjust width for three projects in a row */
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 4px solid #007bff; /* Border around each project */
+    box-sizing: border-box; /* Include border in width calculation */
+}
+.resume{
+    background-color: #fff;
+    padding: 60px 20px;
+}
